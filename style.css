@@ -1,0 +1,469 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.upper{
+   
+    height: 600px;
+    width: 100%;
+
+}
+.upper img {
+    position: relative;
+}
+
+.logo img{
+    position: absolute;
+    z-index: -3;
+    width: 60px;
+    top: 15px;
+    left: 20px;
+}
+.links {
+    position: absolute;
+    display: flex;
+    top: 25px;
+    left: 80px;
+    font-size: 10px;
+    
+
+}
+.links a{
+    text-decoration: none;
+    color: #888888;
+   transition: all 0.1s;
+}
+.links a:hover{
+    border-bottom: 2px solid rgb(171, 3, 171);
+    border-radius: 2px;
+    color: rgb(171, 3, 171);
+   
+}
+
+
+.lnk1 a{
+    margin-right: 10px;
+    /* border-bottom: 2px solid purple; */
+}
+.lnk2 a{
+    margin-right: 10px;
+}
+.lnk3 a{
+    margin-right: 10px;
+}
+.lnk4 a{
+    margin-right: 10px;
+}
+.right-nav{
+    position: absolute;
+    top: 21px;
+    left: 90%;
+}
+.upper .right-nav button{
+
+    border: none;
+    background-color: white;
+    border-radius: 15px;
+    padding: 6px;
+    width: 60px;
+    color: #888888;
+    transition: all 0.2s;
+}
+.upper .right-nav button:hover{
+    transform: translate(0px ,2px);
+    /* background-color: whitesmoke; */
+}
+.txt1{
+    position: absolute;
+    top: 180px;
+    left: 80px;
+    display: flex;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.txt1 h3{
+    color: #888888;
+    margin-right: 13px;
+}
+.txt1 h4{
+    margin-top: 3px;
+
+    margin-right: 10px;
+    color:#7040b9 ;
+}
+.txt2{
+    position: absolute;
+    top: 220px;
+    left: 100px;
+    color: #888888ad;
+}
+.upper2{
+   
+    display: flex;
+}
+
+.ims{
+   
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 80px;
+    left: 710px;
+  
+}
+.ims1 img{
+    position: absolute;
+    width: 550px;
+    top: -70px;
+}
+.ims2 img{
+    position: absolute;
+    width: 220px;
+    left: 120px;
+    top: -40px;
+}
+.ims3 img{
+    width: 300px;
+    height: 200px;
+    top: 240px;
+    left: 100px;
+}
+
+.waves img{
+    position: absolute;
+    width: 1400px;
+    top: 380px;
+    left: -420px;
+}
+.middle{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 1100px;
+    margin-top: -20px;
+}
+.line img{
+    position: absolute;
+    width: 1000px;
+    
+    left: 250px;
+}
+.photo1 img{
+    position: relative;
+    width: 100px;
+    top: 85px;
+    left: 200px;
+   
+}
+
+
+.text1{
+    position: absolute;
+    top: 760px;
+    left: 185px;
+}
+.text1-1{
+    color: #888888;
+}
+.text1-2 .p1{
+    margin-left: -25px;
+    color: #888888ad;
+    font-size: 13px;
+    
+}
+.text1-2 .p2{
+    margin-left: -38px;
+    color: #888888ad;
+    font-size: 13px;
+}
+.photo2 img{
+    position: relative;
+    width: 100px;
+    left: 640px;
+    top: 165px;
+}
+.text2{
+    position: absolute;
+    left: 625px; 
+    top: 910px;
+    color: #888888;
+}
+.pr1{
+    position: relative;
+    left: -80px;
+    color: #888888ad;
+}
+.pr2{
+    position: relative;
+    left: -50px;
+    color: #888888ad;
+}
+.thrd-img img{
+    position: relative;
+    width: 100px;
+    left: 1070px;
+    top: 355px;
+
+}
+.text3-1{
+    position: absolute;
+    left: 1090px;
+    top: 1170px;
+    color: #888888;
+}
+.text3-2{
+    position: absolute;
+    left: 985px;
+    top: 1200px;
+}
+.text3-2 .pr3-1{
+    color: #888888ad;
+
+}
+.text3-2 .pr3-2{
+    width: 400px;
+    position: absolute;
+    left:-10px ;
+    color: #888888ad;
+}
+.left-img{
+    margin-top: 110px;
+    margin-left: 170px;
+    width: 200px;
+    height: 150px;
+   
+}
+.left-img img{
+    position: relative;
+}
+.text7{
+    position: absolute;
+    top: 980px;
+    left: 210px;
+    z-index: 3;
+}
+.text7-1{
+    font-size: 10px;
+    color: white;
+    /* font-weight: bold; */
+    margin-left: 3px;
+    
+}
+.text7-1 a{
+    text-decoration: none;
+    color: white;
+}
+.text7-2{
+    color: white;
+    font-size: 26px;
+    margin-left: 3px;
+    font-family:Arial, Helvetica, sans-serif ;
+    
+    
+}
+.text7-2 a{
+    text-decoration: none;
+    color: white;
+}
+.down-left img{
+    width: 150px;
+    position: absolute;
+    top: 1350px;
+    left: 200px;
+}
+.down-middle img{
+    width: 300px;
+    position: absolute;
+    top: 1250px;
+    left: 500px;
+}
+.text8{
+    position: absolute;
+    top: 1500px;
+    left: 570px;
+
+
+}
+.text8-1{
+    color: #888888;
+    margin-bottom: 15px;
+}
+.text8-2{
+    margin-left: 7px;
+}
+.t8-1{
+    font-size: 15px;
+    color: #888888ad;
+    position: relative;
+    left: -5px;
+}
+.t8-2{
+    font-size:14px ;
+    color: #888888ad;
+}
+.t8-3{
+    font-size: 14px;
+    color: #888888ad;
+    position: relative;
+    left: 32px;
+}
+.down-right img{
+    position: absolute;
+    width: 150px;
+    top: 1350px;
+    left: 1000px;
+}
+.right-arrow a{
+    position: absolute;
+    top: 1470px;
+    left: 900px;
+    border-radius: 50%;
+    transition: all 0.2s;
+    color: #888888;
+}
+.right-arrow a:hover{
+    transform: translate(2px ,0px);
+    color: #7040B9;
+}
+.left-arrow a{
+    position: absolute;
+    top: 1470px;
+    left: 400px;
+    border-radius: 50%;
+    transition: all 0.2s;
+    color:#888888 ;
+}
+.left-arrow a:hover{
+    transform: translate(-2px ,0px);
+    color: #7040B9;
+}
+
+.footer{
+   overflow: hidden;
+    width: 100%;
+    height: 380px;
+}
+.footer-img {
+    width: 115%;
+    position: relative;
+    top: -120px;
+    left: -40px;
+}
+
+.footer-right img{
+    position: absolute; 
+    width: 600px;
+    top: 1660px;
+    left: 700px;
+}
+.footer-left{
+    
+    position: absolute;
+    width: 500px;
+    top: 1850px;
+    height: 230px;
+    
+}
+.apple-store{
+    
+    width: 100px;
+    height: 40px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 0.2s;
+}
+.apple-store:hover{
+    transform: translate(0px , 2px);
+}
+.apple-icon img{
+    width: 15px;
+    margin-left: 5px;
+    
+}
+.t .dwn p{
+    font-size: 7px;
+    color: #888888ad; 
+    margin-left: -5px;
+    margin-right: 5px;
+}
+.t .app p{
+    font-size: 10px;
+    color: #888888; 
+    margin-left: -5px;
+    margin-right: 5px;
+
+}
+.t a{
+    text-decoration: none;
+}
+.play-store{
+    
+    width: 100px;
+    height: 40px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 0.2s;
+}
+.play-store:hover{
+    transform: translate(0px , 2px);
+}
+.left-sec{
+    
+    width: 120px;
+    position: absolute;
+    top: 120px;
+    left: 70px;
+    font-size: 35px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.left-sec i{
+    color: white;
+    transition: all 0.2s;
+}
+.left-sec i:hover{
+    transform: translate(0px , 2px);
+}
+.left-sec img{
+   transition: all 0.2s;
+}
+.left-sec img:hover{
+    transform: translate(0px , 2px);
+}
+.left-last{
+    position: absolute;
+    top: 170px;
+    left: 70px;
+
+}
+.left-last nav{
+    display: flex;
+
+}
+.left-last a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    margin-right: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.2s;
+}
+.left-last a:hover{
+    transform: translate(0px , 2px);
+    
+}
